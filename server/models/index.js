@@ -1,7 +1,7 @@
 console.log('models/index.js'); 
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize('Employees', 'postgres', 'Niveraju612', {
+const sequelize = new Sequelize('Employees', 'postgres', '###', {
   host: 'localhost',
   dialect: 'postgres' 
 });
